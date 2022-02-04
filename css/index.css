@@ -1,0 +1,47 @@
+/*colores*/
+:root {
+    --color-principal: #154360;
+    --color-secundario: #FFFFFF;
+    --color-fondo: #010142;
+    --opacidad-texto: 0.9;
+}
+
+body{
+    background-color: var(--color-fondo);
+}
+
+/*navbar*/
+.navbar{
+    background-color: var(--color-principal);
+}
+.navbar ul li a{
+    color: var(--color-secundario);
+}
+.navbar ul ul li a{
+    color: #000;
+}
+.navbar ul li a:hover{
+    background-color: var(--color-secundario);
+    color: var(--color-principal);
+}
+/*Fin navbar*/
+
+/*contenedor de imagenes en home*/
+div a{
+    text-decoration: none;
+    color: var(--color-secundario);
+}
+
+.card{
+    border-radius: 10px;
+    background-color: var(--color-principal);
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.img-obras{
+    max-width: 650px;
+    height: 290px;
+    border-radius: 10px;
+}
+/*fn contenedor de imagenes*/
